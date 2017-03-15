@@ -1,20 +1,82 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@font-face{
+  font-family: baskerville;
+  src:url("fonts/Baskerville.ttc");
+}
 
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
+  width: 960px;
+	margin: 0px auto;
 	background: #fff;
-	padding: 0 45px 20px;
+	padding: 0px 45px 20px;
 }
 
 /* Write all remaining styles here */
+
+/* header1 styles */
+h1 {
+  font-family: baskerville, serif;
+  font-weight: normal;
+  font-size: 5em;
+  color: #919191;
+  height: .6em;
+}
+
+/* divider styles */
+div.divider {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: #919191;
+}
+
+/* main image styles */
+#mainImage {
+  margin-top: 5px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #919191;
+}
+
+/* header2 styles */
+h2 {
+  font-size: 2em;
+  color: #7D7D7D;
+}
+
+/* body text styles */
+div.bodyText {
+  color: #464646;
+}
+
+/* removes underlines on all links */
+a {
+  text-decoration: none;
+}
+
+/* image link styles */
+span.imageLink img {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #C8C8C8;
+}
+span.imageLink img:hover {
+  border-color: #646464;
+}
+
+/* copyright styles */
+p.copyright {
+  font-size: 80%;
+  color: #646464;
+  text-align: right;
+  padding-right: .5em;
+}
